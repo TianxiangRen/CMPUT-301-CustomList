@@ -51,7 +51,12 @@ public class CityList {
      *      a candidate city that is going to be removed from the list
      */
     public void delete(City city){
-
+        if(hasCity(city)){
+            cities.remove(city);
+        }
+        else{
+            throw new IllegalArgumentException();
+        }
     }
 
 }
