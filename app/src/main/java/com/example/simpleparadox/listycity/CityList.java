@@ -59,4 +59,14 @@ public class CityList {
         }
     }
 
+
+    /**
+     * Self-explanatory
+     * @return
+     *      Return how many cities are in the list
+     */
+    public int countCities(){
+        return 0;
+    }
+
 }
